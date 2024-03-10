@@ -3,3 +3,25 @@
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
 }
+
+.header {
+  position: relative;
+}
+
+.header::before {
+  content: '';
+  block-size: 25px;
+  inline-size: 25px;
+  color: red;
+  border-inline-end: 1px solid var(--accent-color);
+  border-block-start: 1px solid var(--accent-color);
+}
+
+.header::after {
+  content: '';
+  block-size: 25px;
+  inline-size: 25px;
+  color: red;
+  border-inline-start: 1px solid var(--accent-color);
+  border-block-end: 1px solid var(--accent-color);
+}
