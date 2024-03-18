@@ -1,8 +1,3 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
-
 :root {
   --font-family: 'IBM Plex mono';
   --accent-color: #ff0070;
@@ -12,10 +7,19 @@
   --font-size: 18px;
   --line-height: 1.3;
   --page-margin-mobile: 10px;
-  --hover-border: rgba(255, 0, 112, 0.4);
+  --hover-border: rgba(255 0 112 / 0.4);
   --link-focus: #f1b2ce;
+  --link-hover: #f1b2ce;
   --button-focus: #ff0070;
   --heading-text-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --heading-text-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --section-title: #ff0070;
+  --main-text: #f1b2ce;
+  --grid-template-text-section: 30.7vi 1fr;
+  --background-img: url(../images/cover-image-dark.png);
+  --subtitle-background-color: #ff0070;
+  --decorative-corners-color: #ff0070;
+  --link-accent-color: #ff0070;
+  --menu-item-color: #ff0070;
+  --menu-item-active: #ff0070;
 }

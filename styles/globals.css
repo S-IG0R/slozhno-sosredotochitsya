@@ -36,6 +36,10 @@ picture {
   padding: 0;
 }
 
+img {
+  display: block;
+}
+
 button,
 a {
   color: currentColor;
