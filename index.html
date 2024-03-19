@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="color-scheme" content="dark light" />
     <link rel="stylesheet" href="./fonts/fonts.css" />
-    <link rel="stylesheet" href="./styles/variables.css" />
     <link rel="stylesheet" href="./styles/globals.css" />
+    <link rel="stylesheet" href="./styles/variables.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/dark.css" />
     <link rel="stylesheet" href="./styles/light.css" />
@@ -21,14 +21,14 @@
       <div class="header__rec-label" aria-hidden="true"></div>
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
-          <li class="header__theme-menu-item">
+          <li>
             <button
               class="header__theme-menu-button header__theme-menu-button_type_light"
             >
               День
             </button>
           </li>
-          <li class="header__theme-menu-item">
+          <li>
             <button
               class="header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto"
               disabled
@@ -36,7 +36,7 @@
               Авто
             </button>
           </li>
-          <li class="header__theme-menu-item">
+          <li>
             <button
               class="header__theme-menu-button header__theme-menu-button_type_dark"
             >
@@ -54,12 +54,10 @@
     <main class="content">
       <section class="intro-section">
         <h2 class="section-title">Почему сосредоточиться так сложно</h2>
-        <ul class="intro-section__list section-list">
-          <li class="intro-section__list-item list-item">
-            <h3 class="intro-section__title title-decor title-decor_type_bold">
-              Многозадачность
-            </h3>
-            <p class="intro-section__paragraph main-text">
+        <ul class="section-list">
+          <li class="list-item">
+            <h3 class="title-decor title-decor_type_bold">Многозадачность</h3>
+            <p class="main-text">
               Особенно сложно сосредоточиться, когда задач много и все они —
               важные. Где же легендарная многозадачность, когда она так нужна
               вам (и всем нанимающим менеджерам этого мира)? А дело в том, что
@@ -77,11 +75,9 @@
               ошибаемся и быстро устаём.
             </p>
           </li>
-          <li class="intro-section__list-item list-item">
-            <h3 class="intro-section__title title-decor title-decor_type_bold">
-              Дофамин
-            </h3>
-            <p class="intro-section__paragraph main-text">
+          <li class="list-item">
+            <h3 class="title-decor title-decor_type_bold">Дофамин</h3>
+            <p class="main-text">
               С гормонами стресса всё понятно, но дальше — ещё интереснее. В
               нашей невозможности сосредоточиться замешана и полная
               противоположность стрессу — дофамин. Это вещество участвует в
@@ -99,13 +95,13 @@
           Что снижает концентрацию внимания?
         </h2>
         <ul class="factors-section__list">
-          <li class="factors-section__list-item list-item">
+          <li class="list-item">
             <h3
               class="factors-section__title title-decor title-decor_type_bold"
             >
               Многозадачность
             </h3>
-            <p class="factors-section__paragraph main-text">
+            <p class="main-text">
               Как концентрация может снижаться из-за… концентрации? Любая
               стрессовая ситуация (и резко меняющийся мир в целом) заставляет
               наш мозг постоянно «сканировать» окружающую среду на предмет
@@ -114,13 +110,13 @@
               может не выдержать, если не давать ей отдохнуть.
             </p>
           </li>
-          <li class="factors-section__list-item list-item">
+          <li class="list-item">
             <h3
               class="factors-section__title title-decor title-decor_type_bold"
             >
               Еда
             </h3>
-            <p class="factors-section__paragraph main-text">
+            <p class="main-text">
               «Быстрые углеводы» — сахар, белый хлеб, сладости — молниеносно
               доставляют в мозг энергию и помогают ему лучше работать. Но уходит
               эта энергия также быстро, как и приходит. А мы в результате
@@ -129,13 +125,13 @@
               хотим ещё больше быстрых углеводов.
             </p>
           </li>
-          <li class="factors-section__list-item list-item">
+          <li class="list-item">
             <h3
               class="factors-section__title title-decor title-decor_type_bold"
             >
               Гаджеты
             </h3>
-            <p class="factors-section__paragraph main-text">
+            <p class="main-text">
               Да-да, это та самая ситуация, когда на экране ноутбука — код, в
               наушниках — подкаст, а на компьютере фоном — ещё и видео с
               забавными утятами. В результате мозг пытается переключиться с
@@ -152,19 +148,19 @@
           Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх
           секунд)
         </h2>
-        <ul class="advises-section__list">
-          <li class="advises-section__list-item list-item">
+        <ul>
+          <li class="list-item">
             <h3
               class="advises-section__title title-decor title-decor_type_bold"
             >
               5 простых (на самом деле не очень) советов
             </h3>
           </li>
-          <li class="advises-section__list-item list-item">
-            <h3 class="advises-section__title title-decor">
+          <li class="list-item">
+            <h3 class="title-decor">
               Представьте небо и облака
             </h3>
-            <p class="advises-section__paragraph main-text">
+            <p class="main-text">
               Или листья в ручье. Тут дело в лёгкой медитации, которая помогает
               успокоиться. Ведь часто именно тревожные мысли о сложных задачах
               как раз и мешают эти сложные задачи делать. В такие моменты можно
@@ -175,18 +171,18 @@
               проблемах из будущего.
             </p>
           </li>
-          <li class="advises-section__list-item list-item">
-            <h3 class="advises-section__title title-decor">Включите музыку</h3>
-            <p class="advises-section__paragraph main-text">
+          <li class="list-item">
+            <h3 class="title-decor">Включите музыку</h3>
+            <p class="main-text">
               Но не любую, и не любимую. Любимая может быть связана с сильными
               положительными эмоциями, которые тоже очень сильно отвлекают.
               Подойдёт тихая, спокойная, умеренно-ритмичная. Можно вообще
               попробовать включить плейлист в «белым шумом» или нейромузыкой.
             </p>
           </li>
-          <li class="advises-section__list-item list-item">
-            <h3 class="advises-section__title title-decor">Прогуляйтесь</h3>
-            <p class="advises-section__paragraph main-text">
+          <li class="list-item">
+            <h3 class="title-decor">Прогуляйтесь</h3>
+            <p class="main-text">
               Или даже пробегитесь. Лучше найти парк или лес: один эксперимент
               <a
                 href="https://www.sciencedirect.com/science/article/abs/pii/S0272494415000328"
@@ -201,18 +197,18 @@
               простая двадцатиминутная прогулка — тоже отличный вариант.
             </p>
           </li>
-          <li class="advises-section__list-item list-item">
-            <h3 class="advises-section__title title-decor">Хорошо ешьте</h3>
-            <p class="advises-section__paragraph main-text">
+          <li class="list-item">
+            <h3 class="title-decor">Хорошо ешьте</h3>
+            <p class="main-text">
               Мы — не ваша бабушка, но это правда важно. Выбирайте продукты,
               которые препятствуют резким скачкам сахара в крови. Например, с
               высоким содержанием клетчатки: овощи, ягоды, бобовые (нут,
               чечевица, фасоль), коричневый рис, хлеб из цельнозерновой пшеницы.
             </p>
           </li>
-          <li class="advises-section__list-item list-item">
-            <h3 class="advises-section__title title-decor">Читайте</h3>
-            <p class="advises-section__paragraph main-text">
+          <li class="list-item">
+            <h3 class="title-decor">Читайте</h3>
+            <p class="main-text">
               Настоящие бумажные книги. Это правда помогает с концентрацией:
               чтобы прочитать пост в соцсети, достаточно нескольких минут или
               даже секунд. А вот интересная книга способна затянуть и на
@@ -225,9 +221,9 @@
         <h3 class="title-decor title-decor_type_bold">А можно в картинках?</h3>
         <ul class="gallery-list">
           <li class="gallery__list-item">
-            <picture class="gallery__picture">
-              <source src="./images/sunset.avif" type="image/avif" />
-              <source src="./images/sunset.webp" type="image/webp" />
+            <picture>
+              <source srcset="./images/sunset.avif 1x" type="image/avif" />
+              <source srcset="./images/sunset.webp 1x" type="image/webp" />
               <img
                 class="gallery-picture"
                 loading="lazy"
@@ -237,9 +233,9 @@
             </picture>
           </li>
           <li class="gallery__list-item">
-            <picture class="gallery__picture">
-              <source src="./images/ice-cream.avif" type="image/avif" />
-              <source src="./images/ice-cream.webp" type="image/webp" />
+            <picture>
+              <source srcset="./images/ice-cream.avif 1x" type="image/avif" />
+              <source srcset="./images/ice-cream.webp 1x" type="image/webp" />
               <img
                 class="gallery-picture"
                 loading="lazy"
@@ -249,9 +245,9 @@
             </picture>
           </li>
           <li class="gallery__list-item">
-            <picture class="gallery__picture">
-              <source src="./images/tape.avif" type="image/avif" />
-              <source src="./images/tape.webp" type="image/webp" />
+            <picture>
+              <source srcset="./images/tape.avif 1x" type="image/avif" />
+              <source srcset="./images/tape.webp 1x" type="image/webp" />
               <img
                 class="gallery-picture"
                 loading="lazy"
@@ -261,9 +257,9 @@
             </picture>
           </li>
           <li class="gallery__list-item">
-            <picture class="gallery__picture">
-              <source src="./images/books.avif" type="image/avif" />
-              <source src="./images/books.webp" type="image/webp" />
+            <picture>
+              <source srcset="./images/books.avif 1x" type="image/avif" />
+              <source srcset="./images/books.webp 1x" type="image/webp" />
               <img
                 class="gallery-picture"
                 loading="lazy"
@@ -273,9 +269,9 @@
             </picture>
           </li>
           <li class="gallery__list-item">
-            <picture class="gallery__picture">
-              <source src="./images/street.avif" type="image/avif" />
-              <source src="./images/street.webp" type="image/webp" />
+            <picture>
+              <source srcset="./images/street.avif 1x" type="image/avif" />
+              <source srcset="./images/street.webp 1x" type="image/webp" />
               <img
                 class="gallery-picture"
                 loading="lazy"
@@ -288,7 +284,11 @@
       </section>
     </main>
     <footer class="footer decorated-zone">
-      <p class="footer__text accent-shadow_type_footer title-text">focus</p>
+      <p
+        class="footer__text accent-shadow accent-shadow_type_footer title-text"
+      >
+        focus
+      </p>
     </footer>
     <script src="./scripts/script.js"></script>
   </body>

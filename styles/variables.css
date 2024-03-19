@@ -22,4 +22,11 @@
   --link-accent-color: #ff0070;
   --menu-item-color: #ff0070;
   --menu-item-active: #ff0070;
+  --page-margin-mobile: 10px;
+  --page-margin-desktop: 20px;
+  --list-item-bottom-margin: 20px;
+  --content-desktop-gap: 80px;
+  --content-mobile-gap: 50px;
+  --content-desktop-block-padding: 60px;
+  --content-mobile-block-padding: 40px;
 }

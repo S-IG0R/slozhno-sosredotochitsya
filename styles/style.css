@@ -1,8 +1,8 @@
 /* Основные стили проекта. Это стили для темы, которая верстается первой. */
 
 .page {
-  padding-inline-start: 10px;
-  padding-inline-end: 10px;
+  padding-inline-start: var(--page-margin-mobile, 10px);
+  padding-inline-end: var(--page-margin-mobile, 10px);
   background-image: var(--background-img);
   background-repeat: no-repeat;
   background-position: center;
@@ -154,8 +154,8 @@ button:focus-visible {
 
 @media (width >= 768px) {
   .page {
-    padding-inline-start: 20px;
-    padding-inline-end: 20px;
+    padding-inline-start: var(--page-margin-desktop, 20px);
+    padding-inline-end: var(--page-margin-desktop, 20px);
   }
 
   .title-text {
@@ -179,16 +179,16 @@ button:focus-visible {
 
   .header::before,
   .footer::before {
-    inset-block-start: 20px;
+    inset-block-start: var(--page-margin-desktop, 20px);
   }
 
   .header__rec-label {
-    inset-block-start: 20px;
+    inset-block-start: var(--page-margin-desktop, 20px);
   }
 
   .header::after,
   .footer::after {
-    inset-block-end: 20px;
+    inset-block-end: var(--page-margin-desktop, 20px);
   }
 }
 
@@ -217,9 +217,9 @@ button:focus-visible {
 
 .content {
   display: grid;
-  row-gap: 50px;
-  padding-block-start: 40px;
-  padding-block-end: 40px;
+  row-gap: var(--content-mobile-gap, 50px);
+  padding-block-start: var(--content-mobile-block-padding, 40px);
+  padding-block-end: var(--content-mobile-block-padding, 40px);
 }
 
 .link {
@@ -232,7 +232,7 @@ button:focus-visible {
 }
 
 .list-item:not(:last-child) {
-  margin-block-end: 20px;
+  margin-block-end: var(--list-item-bottom-margin, 20px);
 }
 
 .section-title {
@@ -272,13 +272,6 @@ button:focus-visible {
   row-gap: 10px;
 }
 
-.gallery-picture {
-  object-fit: cover;
-  object-position: center;
-  inline-size: 100%;
-  block-size: 100%;
-}
-
 .gallery__list-item:nth-child(1) {
   grid-area: sunset;
 }
@@ -299,9 +292,18 @@ button:focus-visible {
   grid-area: street;
 }
 
+.gallery-picture {
+  object-fit: cover;
+  object-position: center;
+  inline-size: 100%;
+  block-size: 100%;
+}
+
 @media (width >= 768px) {
   .content {
-    row-gap: 80px;
+    row-gap: var(--content-desktop-gap, 80px);
+    padding-block-start: var(--content-desktop-block-padding, 60px);
+    padding-block-end: var(--content-desktop-block-padding, 60px);
   }
 
   .factors-section {
@@ -314,11 +316,6 @@ button:focus-visible {
     display: grid;
     grid-template-columns: var(--grid-template-text-section);
     column-gap: 20px;
-  }
-
-  .content {
-    padding-block-start: 60px;
-    padding-block-end: 60px;
   }
 
   .advises-section {
