@@ -3,18 +3,22 @@
 .page {
   padding-inline-start: var(--page-margin-mobile, 10px);
   padding-inline-end: var(--page-margin-mobile, 10px);
+  font-family: var(--font-family, sans-serif);
+  font-size: var(--font-size, 18px);
+  line-height: var(--line-height, 1.3);
   background-image: var(--background-img);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  transition: all 0.5s;
 }
 
-a:focus-visible {
+.link:focus-visible {
   outline: 1px solid var(--link-focus);
 }
 
-button:focus-visible {
+.header__theme-menu-button:focus-visible {
   border-block-end: 1px solid var(--button-focus);
 }
 
