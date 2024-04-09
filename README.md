@@ -6,4 +6,8 @@
  - CSS Grid;
  - BEM;
  - Responsive design;
- - Семантическая разметка.
+ - Семантическая разметка;
+ - Логические свойства CSS.
+
+ ## Как запустить 
+ [GH Pages](https://s-ig0r.github.io/slozhno-sosredotochitsya/)
